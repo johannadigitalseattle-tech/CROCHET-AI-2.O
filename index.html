@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
+<script>
+  if (!sessionStorage.getItem('ece_session')) {
+    window.location.replace('https://johannadigitalseattle-tech.github.io/ceo-creativa-suite/');
+  }
+</script>
+  <meta charset="UTF-8">
 <link rel="icon" type="image/png" href="favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🧶 Crochet AI Generator</title>
